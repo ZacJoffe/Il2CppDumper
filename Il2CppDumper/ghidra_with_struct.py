@@ -153,4 +153,4 @@ if "ScriptMethod" in data and "ScriptMethod" in processFields:
 		name = scriptMethod["Name"].encode("utf-8")
 		set_sig(addr, name, sig)
 
-print 'Script finished!'
+print('Script finished!')
